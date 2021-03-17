@@ -16,3 +16,8 @@ The first parts of the dialogues from:
 ## Model
 
 To use PubMedBERT I used Huggingface's transformers library, and the version of PubMedBERT available here, on huggingface's modelhub https://huggingface.co/microsoft/BiomedNLP-PubMedBERT-base-uncased-abstract-fulltext
+
+## Files
+* question_analysis.ipynb: main file to finetune the model
+* utils.py: various utility functions to eg. load data in a usable format, make graphs
+* ds_config.json: config file for using deepspeed while finetuning
